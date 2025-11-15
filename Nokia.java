@@ -90,20 +90,34 @@ switch(menuOptions) {
 }
 }
                  case 6 -> {System.out.println("Welcome to the edit bar, Assign tone displays mesasages direcetly\nchoose the search option below: \n 1. Assign tone");
-                                   int assignTone = collector.nextInt();
+                                 int assignTone = collector.nextInt();
                                   switch(assignTone){
                                      case 1 -> System.out.println("Assign tone");
                                         default-> System.out.println("Invalid option,pick the right option");
 }
 }
-                 case 7 -> System.out.println("Option 1 - 7,9,10, has no sub-options; explore further with option 8");
-                 case 8 -> System.out.println("""
+                 case 7 -> {System.out.println(" Welcome to the edit bar, Send b'card displays mesasages direcetly\nchoose the search option below: \n 1. Send b'card ");
+                                 int sendbCards = collector.nextInt();
+                                  switch(sendbCards){
+                                     case 1 -> System.out.println("Send b'card");
+                                        default-> System.out.println("Invalid option,pick the right Send b'card");
+}
+}
+                 case 8 -> {System.out.println("""
         
            The Option item has 2 sub-options below which displays messages directly and have no sub-option:
         
                                      1.Type of view
                                      2.Memory status
+
  """);
+                                 int typeOfView = collector.nextInt();
+                                  switch(typeOfView) {
+                                     case 1 -> System.out.println("Type of view");
+                                       case 2 -> System.out.println("Type of view");
+                                        default-> System.out.println("Invalid option,pick the right Send b'card");
+}
+}
                  case 9 -> System.out.println("Option 1 - 7,9,10, has no sub-options; explore further with option 8");
                  case 10-> System.out.println("Option 1 - 7,9,10, has no sub-options; explore further with option 8");
 

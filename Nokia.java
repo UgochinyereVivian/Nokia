@@ -61,7 +61,7 @@ switch(menuOptions) {
                                     default-> System.out.println("Invalid option,pick the right option");
 }
 }
-                 case 2 -> { System.out.println("Welcome to the search bar, search displays mesasages direcetly\nchoose the search option below: \n 1. Service Nos");
+                 case 2 -> { System.out.println("Welcome to the Service Nos, Service Nos displays mesasages direcetly\nchoose the search option below: \n 1. Service Nos");
                                 int service = collector.nextInt();
                                   switch(service){
                                      case 1 -> System.out.println("Service Nos"); 

@@ -5,7 +5,7 @@ import java.util.Scanner;
 
  Scanner collector = new Scanner(System.in);
 
- System.out.println(" ☺️🤳️ Welcome to your Nokia phone, below is your Nokia menu map, which helps you navigate your new phone with ease and confidence!. Hope you find fun getting to know your new device!");
+ System.out.println(" ☺️🤳️ Welcome to your Nokia phone, below is your Nokia menu map, which helps you navigate your new phone with ease and confidence!. \n Hope you find fun getting to know your new device!");
 
 System.out.println("""
 
@@ -561,19 +561,470 @@ switch(menuOptions) {
 
                                                 }//switch call setting
                                                 }//case sub 7
+
+
+
+                                           case 8 -> {System.out.println(""" 
+                                                 You have reached the prepared credit section! Nokia got your prepared credit covered!📲️🤸‍♀️️ 
+                                                           choose the option(s) below:
+                                                           1.prepared credit 
+                                                                     """);
+                                                
+                                              int preparedCredit = collector.nextInt();
+                                                    switch(preparedCredit){
+                                                    case 1 -> System.out.println("prepared credit");
+                                                    //default -> System.out.println("Invalid input, click on the avalaible option(s)");
+                                              }
+                                              
+
+                                       //default -> System.out.println("Invalid input, click on the avalaible option(s)");
+                                         }//case 8
 }//switch Register                                                       
 }//case 4
 //
-//
+//case 5 begins here
+
+
+  
+
+
+
+    case 5 -> {System.out.println(""" 
+                                    Do you want to CUSTOMIZE your phone to suit you? want your VOLUME, CALL TONES and GRAPHICS show your style? \n choose an option right away!!📞️📲️ 
+                                              choose the option(s) below:
+                                                        1. Ringing tone
+                                                        2. Ringing volume
+                                                        3. Incoming call alert
+                                                        4. Composer
+                                                        5. Message alert tone
+                                                        6. Keypad tones
+                                                        7. Warning and game tones
+                                                        8. Vibrating alert
+                                                        9. Screen saver
+                                          """);
+
+
+
+                     int tones = collector.nextInt(); 
+                       
+                     switch(tones){
+                              case 1 -> {System.out.println(" Change your Ringing Tone by clicking on the option below: \n 1.  Ringing Tone");
+                                    int ringingTones = collector.nextInt();
+                                    switch(ringingTones){
+                                    case 1 -> System.out.println(" Ringing Tone");
+                                    default -> System.out.println("Invalid input, click on the avalaible option(s)");
+                                 }
+                                 }
+                              case 2 -> {System.out.println(" Adjust your Ringing volume by clicking on the option below: \n 1. Ringing volume");
+                                    int volume = collector.nextInt();
+                                    switch(volume){
+                                    case 1 -> System.out.println("Ringing volume");
+                                    default -> System.out.println("Invalid input, click on the avalaible option(s)");
+                                }
+                                }
+
+
+                               case 3 -> {System.out.println(" want to receive Incoming call alert? choose from the option below: \n 1.Incoming call alert");
+                                    int callAlert = collector.nextInt();
+                                    switch(callAlert){
+                                    case 1 -> System.out.println("Incoming call alert");
+                                    default -> System.out.println("Invalid input, click on the avalaible option(s)");
+                                }
+                                }
+
+                               case 4 -> {System.out.println("  Access Composer by clicking on the option below: \n 1.  Composer");
+                                    int composer = collector.nextInt();
+                                    switch(composer){
+                                    case 1 -> System.out.println("Composer");
+                                    default -> System.out.println("Invalid input, click on the avalaible option(s)");
+
+                                }
+                                }
+                              case 5 -> {System.out.println(" set your phone to receive Message alert tone by clicking on the option below: \n 1. Message alert tone");
+                                    int alertTone = collector.nextInt();
+                                    switch(alertTone){
+                                    case 1 -> System.out.println("Message alert tone set!");
+                                    default -> System.out.println("Invalid input, click on the avalaible option(s)");
+                                }
+                                }
+
+
+                              case 6 -> {System.out.println(" set your phone to have Keypad tones by clicking on the option below: \n 1. Keypad tones");
+                                    int keypadTone = collector.nextInt();
+                                    switch(keypadTone){
+                                    case 1 -> System.out.println("Keypad tones set!");
+                                    default -> System.out.println("Invalid input, click on the avalaible option(s)");
+           
+                                }
+                                }
+                              case 7 -> {System.out.println(" Show ⚠️Warning and 🎮️game tones by clicking on the option below: \n 1.  Warning and game tones");
+                                    int warningGameTone = collector.nextInt();
+                                    switch(warningGameTone){
+                                    case 1 -> System.out.println(" Warning and game tones set!");
+                                    default -> System.out.println("Invalid input, click on the avalaible option(s)");
+                                }
+                                }
+
+
+                              case 8 -> {System.out.println(" set your phone to Vibrating alert by clicking on the option below: \n 1. Vibrating alert");
+                                    int vibratingAlert = collector.nextInt();
+                                    switch(vibratingAlert){
+                                    case 1 -> System.out.println("Vibrating alert set");
+                                    default -> System.out.println("Invalid input, click on the avalaible option(s)");
+           
+                                }
+                                }
+                              case 9 -> {System.out.println(" want your favorite picture to be your Screen saver?🙋‍♀️️ choose the option below: \n 1. Screen saver");
+                                    int screenSaver = collector.nextInt();
+                                    switch(screenSaver){
+                                    case 1 -> System.out.println("Screen saver set");
+                                    default -> System.out.println("Invalid input, click on the avalaible option(s)");
+           
+                                }
+                                }
 
 
 
 
+                          }//switch tones           
+                          }//CASE 5
 
-                                         
-                                      //  }
- 
-                                   //}
+
+ //case 6 starts here
+         
+
+
+      case 6 -> {System.out.println(""" 
+                                    adjust your phone Settings here \n choose an option to get started📞️📲️ 
+                                              :
+                                                        1. Call settings
+                                                        2. Phone settings
+                                                        3. Security settings
+                                                        4. Restore factory settings
+                                                        
+                                          """);
+                     int setting = collector.nextInt(); 
+                       
+                     switch(setting){
+                              case 1 -> {System.out.println(""" 
+                                    adjust your CALL SETTING here \n explore the options below: 📞️📲️ 
+                                              :
+                                                        1. Automatic redial
+                                                        2. Speed dialling
+                                                        3. Call waiting options
+                                                        4. Own number sending
+                                                        5. Phone line in use
+                                                        6. Automatic answer 
+                                                        
+                                          """);
+                                  
+                                           int callSetting = collector.nextInt();
+                                                        switch(callSetting){
+                                                           case 1 -> {System.out.println("To use Automatic redial, choose the option(s) \n 1. Automatic redial");
+                                                               int automaticRedial = collector.nextInt();
+                                                                switch(automaticRedial){
+                                                                  case 1 -> System.out.println("Automatic redial");
+                                                          
+                                                    }
+                                                    }
+                                                    
+                                                         
+                                                         case 2 -> {System.out.println("To use Speed dialling as a feature, choose the option(s) below: \n 1. Speed dialling");
+                                                         int speedDialling = collector.nextInt();
+                                                            switch(speedDialling){
+                                                                case 1 -> System.out.println("Speed dialling");
+                                                            
+                                                    }
+                                                    }
+
+                 
+                                                         case 3 -> {System.out.println("To access Call waiting options as a feature, choose the option(s) below: \n 1. Call waiting options");
+                                                         int callWaitingOptions = collector.nextInt();
+                                                            switch(callWaitingOptions){
+                                                                case 1 -> System.out.println("Call waiting options");
+                                                            
+                                                    }
+                                                    }
+
+                                                         case 4 -> {System.out.println("To access  'Own number sending' as a feature, choose the option(s) below: \n 1.  Own number sending");
+                                                         int ownNumber = collector.nextInt();
+                                                            switch(ownNumber){
+                                                                case 1 -> System.out.println(" Own number sending");
+                                                            
+                                                    }
+                                                    }
+                                                        case 5 -> {System.out.println("To access  'Phone line in use' as a feature, choose the option(s) below: \n 1.  Phone line in use");
+                                                         int lineInUse = collector.nextInt();
+                                                            switch(lineInUse){
+                                                                case 1 -> System.out.println("Phone line in use set!");
+                                                            
+                                                    }
+                                                    }
+                                                        case 6 -> {System.out.println("To access  'Automatic answer' as a feature, choose the option(s) below: \n 1.   Automatic answer");
+                                                         int automaticAnswer = collector.nextInt();
+                                                            switch(automaticAnswer){
+                                                                case 1 -> System.out.println(" Automatic answer set!");
+                                                            
+                                                    }
+                                                    }
+
+
+
+                                                 }//case 1 under switch setting
+
+                                                }//switch call setting
+
+                                                case 2 -> {System.out.println(""" 
+                                                      adjust your PHONE SETTING here \n explore the options below: 📞️📲️ 
+                                              :
+                                                        1. Language
+                                                        2. Cell info display
+                                                        3. Welcome note
+                                                        4. Network selection
+                                                        5. Lights 2
+                                                        6. Confirm SIM service action
+                                                                                                                
+                                          """);
+                                  
+                                           int phoneSetting = collector.nextInt();
+                                                        switch(phoneSetting){
+                                                           case 1 -> {System.out.println("To change Language, choose the option(s) below: \n 1. Language");
+                                                               int language = collector.nextInt();
+                                                                switch( language){
+                                                                  case 1 -> System.out.println("Language");
+                                                          
+                                                    }
+                                                    }
+                                                    
+                                                         
+                                                         case 2 -> {System.out.println("To use Cell info display as a feature, choose the option(s) below: \n 1. Cell info display");
+                                                         int cellInfoDisplay = collector.nextInt();
+                                                            switch(cellInfoDisplay){
+                                                                case 1 -> System.out.println("Cell info display");
+                                                            
+                                                    }
+                                                    }
+
+                 
+                                                         case 3 -> {System.out.println("To access Welcome note options as a feature, choose the option(s) below: \n 1. Welcome note");
+                                                         int callWaitingOptions = collector.nextInt();
+                                                            switch(callWaitingOptions){
+                                                                case 1 -> System.out.println("Welcome note");
+                                                            
+                                                    }
+                                                    }
+
+                                                         case 4 -> {System.out.println("To access  'Network selection' as a feature, choose the option(s) below: \n 1.  Network selection");
+                                                         int networkSelection = collector.nextInt();
+                                                            switch( networkSelection){
+                                                                case 1 -> System.out.println(" Own number sending");
+                                                            
+                                                    }
+                                                    }
+                                                        case 5 -> {System.out.println("To adjust Lights and brightness, choose the option(s) below: \n 1.  Lights 2");
+                                                         int light = collector.nextInt();
+                                                            switch(light){
+                                                                case 1 -> System.out.println("Lights set!");
+                                                            
+                                                    }
+                                                    }
+                                                        case 6 -> {System.out.println("To Confirm SIM service action choose the option(s) below: \n 1. Confirm SIM service action");
+                                                         int confirmSim = collector.nextInt();
+                                                            switch(confirmSim){
+                                                                case 1 -> System.out.println(" Confirm SIM service action");
+                                                            
+                                                    }
+                                                    }
+                                                }//case 1 phone setting
+
+                                                }//switch phone  setting
+
+
+                                       case 3 -> {System.out.println(""" 
+                                                      adjust your SECURITY SETTING here \n explore the options below: 📞️📲️ 
+                                              :
+                                                        1. PIN code request
+                                                        2. Call barring service
+                                                        3. Fixed dialling
+                                                        4. Closed user group
+                                                        5. Phone security
+                                                        6. Change access codes                          
+                                          """);
+                                  
+                                           int securitySetting = collector.nextInt();
+                                                        switch(securitySetting){
+                                                           case 1 -> {System.out.println("To use  Call barring service, choose the option(s) below: \n 1. Call barring service");
+                                                               int pinCodeRequest = collector.nextInt();
+                                                                switch(pinCodeRequest){
+                                                                  case 1 -> System.out.println("PIN code request");
+                                                          
+                                                    }
+                                                    }
+                                                    
+                                                         
+                                                         case 2 -> {System.out.println("To use Cell info display as a feature, choose the option(s) below: \n 1. Call barring service");
+                                                         int callBarring = collector.nextInt();
+                                                            switch(callBarring){
+                                                                case 1 -> System.out.println("Call barring service");
+                                                            
+                                                    }
+                                                    }
+
+                 
+                                                         case 3 -> {System.out.println("To access Fixed dialling feature, choose the option(s) below: \n 1. Fixed dialling");
+                                                         int fixedDialing = collector.nextInt();
+                                                            switch(fixedDialing){
+                                                                case 1 -> System.out.println("Fixed dialling");
+                                                            
+                                                    }
+                                                    }
+
+                                                        case 4 -> {System.out.println("To access Closed user group feature, choose the option(s) below: \n 1. Closed user group");
+                                                         int closedUserGroup = collector.nextInt();
+                                                            switch(closedUserGroup){
+                                                                case 1 -> System.out.println("Closed user group");
+                                                            
+                                                    }
+                                                    }
+                                                        case 5 -> {System.out.println("To  Phone security, choose the option(s) below: \n 1. Phone security ");
+                                                         int phoneSecurity = collector.nextInt();
+                                                            switch(phoneSecurity){
+                                                                case 1 -> System.out.println("Phone security");
+                                                            
+                                                    }
+                                                    }
+                                                       case 6 -> {System.out.println("To  Change access codes , choose the option(s) below: \n 1. Change access codes ");
+                                                         int accessCodes = collector.nextInt();
+                                                            switch(accessCodes){
+                                                                case 1 -> System.out.println("Change access codes");
+                                                    }
+                                                    }
+                                                }//case 3 security setting
+
+                                                }//switch security setting
+
+
+                                    case 4 -> {System.out.println("To Restore Factory Setting, choose the option(s) below: \n 1. Restore Factory Setting");
+                                                         int factorySetting = collector.nextInt();
+                                                            switch(factorySetting){
+                                                                case 1 -> System.out.println("Restore Factory Setting restored");
+                                            }//switch factorysetting
+                                            }//case 4 factory setting
+
+   
+                                        }//switch setting
+                                   }//case 6
+
+       case 7 -> {System.out.println("To divert calls, choose the option(s) below: \n 1. Divert Calls");
+                                                         int divertCalls = collector.nextInt();
+                                                            switch(divertCalls){
+                                                                case 1 -> System.out.println("Divert Calls");
+                                            }//switch divert calls
+                                            }//case 7 DIVERTCALLS
+
+       case 8 -> {System.out.println("🎮️🎲️🏓️ To play your favorite GAMES, choose the option(s) below: \n 1.GAMES");
+                                                         int games = collector.nextInt();
+                                                            switch(games){
+                                                                case 1 -> System.out.println("GAMES");
+                                            }//switch for games
+                                            }//case 8 Games
+
+       case 9 -> {System.out.println("🎮️To use the CALULATION, choose the option(s) below: \n 1. Calculator");
+                                                         int calculation = collector.nextInt();
+                                                            switch(calculation){
+                                                                case 1 -> System.out.println("CALULATION");
+                                            }//switch for games
+                                            }//case 9 Calculation
+
+       case  10 -> {System.out.println("⏰️To set REMINDERS, explore the option(s) below: \n 1. REMINDERS");
+                                                         int reminders = collector.nextInt();
+                                                            switch(reminders){
+                                                                case 1 -> System.out.println("REMINDERS");
+                                            }//switch for REMINDERS
+                                            }//case 10 REMINDERS
+
+       case 11 -> {System.out.println (""" 
+
+                        🕣️ 🕰️TIME IS MONEY! set your CLOCK; yy/mm/dd, alarm, stopwatch and others! by exploring the options below:
+
+                                    1. Alarm clock
+                                    2. Clock settings
+                                    3. Date setting
+                                    4. Stopwatch
+                                    5. Countdown timer
+                                    6. Auto update of date and time """);
+                          int clock = collector.nextInt();
+                                                        switch(clock){
+                                                           case 1 -> {System.out.println("To set Alarm clock, choose the option(s) below: \n 1. Alarm clock");
+                                                               int alarmClock = collector.nextInt();
+                                                                switch(alarmClock){
+                                                                  case 1 -> System.out.println("Alarm clock");
+                                                         
+                                                    }
+                                                    }
+                                                    
+                                                         
+                                                         case 2 -> {System.out.println("To set your clock, use the Clock settings feature; choose the option(s) below: \n 1. Clock settings");
+                                                         int clockSettings = collector.nextInt();
+                                                            switch(clockSettings){
+                                                                case 1 -> System.out.println(" Clock settings");
+                                                            
+                                                    }
+                                                    }
+
+                 
+                                                         case 3 -> {System.out.println("use the Date setting feature to manually adjust date and time to reflect your location, choose the option(s) below: \n 1. Date setting");
+                                                         int dateSetting = collector.nextInt();
+                                                            switch(dateSetting){
+                                                                case 1 -> System.out.println("Date setting");
+                                                            
+                                                   
+                                                      }
+                                                      }
+
+                                                        case 4 -> {System.out.println("To access Stopwatch, choose the option(s) below: \n 1. Stopwatch");
+                                                         int stopwatch = collector.nextInt();
+                                                            switch(stopwatch){
+                                                                case 1 -> System.out.println("Stopwatch");
+                                                            
+                                                    }
+                                                    }
+                                                        case 5 -> {System.out.println("To use Countdown timer, choose the option(s) below: \n 1.Countdown timer");
+                                                         int countdownTimer = collector.nextInt();
+                                                            switch(countdownTimer){
+                                                                case 1 -> System.out.println("Countdown timer");
+                                                            
+                                                    }
+                                                    }
+                                                        case 6 -> {System.out.println("To automatically adjust dtate and time, choose the option(s) below: \n 1.Auto update of date and time");
+                                                         int autoUpdateOfDateAndTime = collector.nextInt();
+                                                            switch(autoUpdateOfDateAndTime){
+                                                                case 1 -> System.out.println("Auto update of date and time");
+                                                            
+                                                    }
+                                                    }
+
+                                             }//switch for CLOCK
+                                            }//case 11 CLOCK
+
+// case 12 starts here
+
+        case 12 -> {System.out.println("To set Profiles, choose the option(s) below: \n 1. Profiles");
+                int profiles = collector.nextInt();
+                switch(profiles){
+                case 1 -> System.out.println("Profiles");
+}//case 12
+}// switch profiles in case 12
+
+// case 13 starts here
+
+        case 13 -> {System.out.println("To get access SIM Services, choose the option(s) below: \n 1. SIM Services");
+                int simServices = collector.nextInt();
+                switch(simServices){
+                case 1 -> System.out.println("SIM Services");
+}//case 12
+}// switch profiles in case 12
+
 
 }//menuOptions
 }//method
